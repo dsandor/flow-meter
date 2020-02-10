@@ -30,5 +30,6 @@ This is a reboot on an old flow meter I put together about 5 years ago. I design
 
 I had trouble with moving the **DIO** and **Yellow** connections around on the digital pins.  This was the best I could get working with both the flow sensor and the LED Display working at the same time.
 
+Also, my Nano is a cheap knock off from ebay and has the less expensive WCH340 serial driver on it and a really old bootloader/programmer. So I needed to choose the processor **old bootloader** option for the programmer in the Arduino IDE in order to push my code to the device.
 
 
